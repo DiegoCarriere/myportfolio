@@ -1,0 +1,50 @@
+.presentation {
+  display: flex;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column-reverse;
+    margin: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    margin: 100px;
+  }
+
+  justify-content: center;
+  align-items: center;
+
+
+  border: 1px solid white;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.5);
+
+
+  .imageAccueil {
+
+    width: 400px;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  div {
+    margin: 5%;
+  }
+  div p {
+    line-height: 25px;
+  }
+
+  span {
+    color: $yellow;
+  }
+  a {
+    color: $yellow;
+    text-decoration: none;
+
+  }
+  a:hover {
+    text-decoration: underline $yellow;
+
+  }
+
+}
