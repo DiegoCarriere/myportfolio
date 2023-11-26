@@ -11,17 +11,17 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Accueil />}></Route>
-            <Route path="/Accueil" element={<Accueil />}></Route>
-          <Route path="*" element={<Accueil />}></Route>
+          <Route path="/myportfolio/" element={<Accueil />}></Route>
+            <Route path="/myportfolio/Accueil" element={<Accueil />}></Route>
+          <Route path="/myportfolio/*" element={<Accueil />}></Route>
+            <Route path="*" element={<Accueil />}></Route>
 
-          <Route path="/Futur" element={<Futur />}></Route>
-          <Route path="/Projets" element={<Projets />}></Route>
-          <Route path="/Contacts" element={<Contacts />}></Route>
-            <Route path="/Competences" element={<Competences />}></Route>
+          <Route path="/myportfolio/Futur" element={<Futur />}></Route>
+          <Route path="/myportfolio/Projets" element={<Projets />}></Route>
+          <Route path="/myportfolio/Contacts" element={<Contacts />}></Route>
+            <Route path="/myportfolio/Competences" element={<Competences />}></Route>
         </Routes>
       </BrowserRouter>
   );
 }
-
 export default App;

@@ -11,7 +11,7 @@ const Navigation = () => {
                 {menu.map((onglet) =>
                     <li  key={onglet}>
                         <NavLink
-                            to={"/" + onglet}
+                            to={"/myportfolio/" + onglet}
                             key={onglet}
                             className={(navigation) => (navigation.isActive ? "nav-active" : "")}>
                             {onglet}

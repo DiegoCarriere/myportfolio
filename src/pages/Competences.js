@@ -15,7 +15,7 @@ function competenceClicked(e) {
 }
 
 const Competences = () => {
-    const [competences, setCompetences] = useState(["langages web","langages pour applications",
+    const [competences] = useState(["langages web","langages pour applications",
                                                     "base de données","autres compétences"]);
 
 
