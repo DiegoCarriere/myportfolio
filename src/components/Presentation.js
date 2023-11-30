@@ -5,7 +5,7 @@ const Presentation = () => {
     <article className="presentation">
 
 
-            <img className="imageAccueil" src={"./img/photo_accueil.webp"} alt="Diego Carrière"/>
+            {/*<img className="imageAccueil" src="img/photo_accueil.webp" alt="Diego Carrière"/>*/}
 
             <div>
                 <p>

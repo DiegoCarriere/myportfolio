@@ -36,8 +36,19 @@
   flex-direction: column;
   justify-content: center;
 
-  h3 {
+  .carte-en-tete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 2.5%;
+    h3 {
+      margin: 0;
+    }
+    img {
+      height: 30px;
+      transition: 0.5s;
+    }
   }
 
   .contenuCarteCompetences {
@@ -64,6 +75,7 @@
         img {
           height: 60px;
         }
+
       }
 
       li:last-child {
